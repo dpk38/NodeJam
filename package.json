@@ -1,0 +1,30 @@
+{
+  "name": "nodejam",
+  "version": "1.0.0",
+  "description": "Collaborative local music streaming service",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpk38/NodeJam.git"
+  },
+  "keywords": [
+    "music",
+    "streaming"
+  ],
+  "author": "Praveen Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpk38/NodeJam/issues"
+  },
+  "homepage": "https://github.com/dpk38/NodeJam#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "mongodb": "^3.0.10"
+  }
+}
